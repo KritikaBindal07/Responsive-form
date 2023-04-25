@@ -1,0 +1,264 @@
+.box{
+    margin: auto;
+    width: 50%;
+    height: 1450px;
+    background-color:#230831 ;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.box1{
+    margin: 50px ;
+    width:fit-content;
+    height: fit-content;
+    border: 3px solid grey;
+    align-content: center;
+    overflow: hidden;
+
+}
+
+.text{
+    text-decoration: none;
+    font-weight: 700;
+    font-size:larger;
+}
+
+.margin{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.margin_top{
+    margin: 10px;
+    
+}
+
+.color{
+    color: white;
+    
+}
+
+.text1{
+    font-size: large;
+    font-weight: 400;
+}
+
+.cursor{
+    cursor: pointer;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+.button{
+    padding: 8px;
+    background-color: white;
+    width: 200px;
+    
+}
+.bg{
+    background: #a997b3;
+    background-image: url(https://wallpapercave.com/wp/wp9890357.jpg);
+    backdrop-filter: blur(40px);
+    
+    
+    
+    top: 10%;
+    
+
+}
+
+input:hover{
+    background-color:bisque;
+}
+
+.font{
+    font-family: 'Sedgwick+ave', Courier, monospace;
+}
+
+.mobile-only{
+    display: none;
+}
+
+@media(max-width:1080px){
+    .box{
+        margin: auto;
+        width: 50%;
+        height: 1450px;
+        background-color:#230831 ;
+        border-radius: 20px;
+        display: flex;
+        justify-content: center;
+        }
+    
+    .box1{
+        margin: 50px ;
+        width:fit-content;
+        height: fit-content;
+        border: 3px solid grey;
+        align-content: center;
+        overflow: hidden;
+
+    
+    }
+    
+    .text{
+        text-decoration: none;
+        font-weight: 700;
+        font-size:larger;
+    }
+    
+    .margin{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    
+    .margin_top{
+        margin: 10px;
+        
+    }
+    
+    .color{
+        color: white;
+        
+    }
+    
+    .text1{
+        font-size: large;
+        font-weight: 400;
+    }
+    
+    .cursor{
+        cursor: pointer;
+        margin-top: 30px;
+        margin-left: 10px;
+    }
+    
+    .button{
+        padding: 8px;
+        background-color: white;
+        width: 200px;
+        
+    }
+    .bg{
+        background: #a997b3;
+        background-image: url(https://wallpapercave.com/wp/wp9890357.jpg);
+        backdrop-filter: blur(40px);
+        
+        
+        
+        top: 10%;
+        
+    
+    }
+    
+    input:hover{
+        background-color:bisque;
+    }
+    
+    .font{
+        font-family: 'Sedgwick+ave', Courier, monospace;
+    }
+    .mobile-only{
+        display: none;
+    }
+
+}
+
+
+
+
+
+
+@media(max-width:600px){
+    .box{
+        margin: auto;
+        display: flex;
+        width: 95%;
+        height: 1550px;
+        background-color:#230831 ;
+        border-radius: 20px;
+        justify-content: center;
+        display: flex;
+    }
+    
+    .box1{
+        margin: 50px ;
+        width: auto;
+        
+        height: fit-content;
+        border: 3px solid grey;
+        align-content: center;
+        overflow: hidden;
+        justify-content: center;
+       
+
+    
+    }
+    
+    .text{
+        text-decoration: none;
+        font-weight: 700;
+        font-size:larger;
+    }
+    
+    .margin{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    
+    .margin_top{
+        margin: 10px;
+        
+    }
+    
+    .color{
+        color: white;
+        
+    }
+    
+    .text1{
+        font-size: large;
+        font-weight: 400;
+    }
+    
+    .cursor{
+        cursor: pointer;
+        margin-top: 30px;
+        margin-left: 10px;
+    }
+    
+    .button{
+        padding: 8px;
+        background-color: white;
+        width: 200px;
+        
+    }
+    .bg{
+        background: #a997b3;
+        background-image: url(https://wallpapercave.com/wp/wp9890357.jpg);
+        backdrop-filter: blur(40px);
+        
+        
+        
+        top: 10%;
+        
+    
+    }
+    
+    input:hover{
+        background-color:bisque;
+    }
+    
+    .font{
+        font-family: 'Sedgwick+ave', Courier, monospace;
+    }
+    .mobile-only{
+        display: block;
+    }
+    
+    
+    
+    
+    
+}
