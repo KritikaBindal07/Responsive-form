@@ -79,6 +79,14 @@ input:hover{
 .mobile-only{
     display: none;
 }
+.align{
+    text-align: left;
+    display: none;
+}
+.radio-container{
+    display: initial;
+}
+
 
 @media(max-width:1080px){
     .box{
@@ -162,6 +170,13 @@ input:hover{
     .mobile-only{
         display: none;
     }
+    .align{
+        text-align: left;
+        display: none;
+    }
+    .radio-container{
+        display: initial;
+    }
 
 }
 
@@ -185,7 +200,6 @@ input:hover{
     .box1{
         margin: 50px ;
         width: auto;
-        
         height: fit-content;
         border: 3px solid grey;
         align-content: center;
@@ -195,6 +209,12 @@ input:hover{
 
     
     }
+    
+    
+       
+       
+       
+    
     
     .text{
         text-decoration: none;
@@ -255,6 +275,15 @@ input:hover{
     }
     .mobile-only{
         display: block;
+    }
+    .align{
+        text-align: left;
+    }
+    .radio-container{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: flex-end;
+        width: 150px;
     }
     
     
